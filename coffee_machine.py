@@ -1,6 +1,6 @@
 class CoffeeMachine:
+
     def __init__(self):
-        # self.status = status
         self.water_left = 400
         self.milk_left = 540
         self.beans_left = 120
