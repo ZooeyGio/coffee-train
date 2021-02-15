@@ -128,14 +128,21 @@ class CoffeeMachine:
         print()
         CoffeeMachine.main(self)
 
+    # def remaining(self):
+    #     print("The coffee machine has:")
+    #     print(self.water_left, "of water")
+    #     print(self.milk_left, 'of milk')
+    #     print(self.beans_left, 'of coffee beans')
+    #     print(self.cups_left, "of disposable cups")
+    #     print(f'${self.money_left} of money')
+    #     print()
+    #     CoffeeMachine.main(self)
+
     def remaining(self):
-        print("The coffee machine has:")
-        print(self.water_left, "of water")
-        print(self.milk_left, 'of milk')
-        print(self.beans_left, 'of coffee beans')
-        print(self.cups_left, "of disposable cups")
-        print(f'${self.money_left} of money')
-        print()
+        print(f"The coffee machine has:\n{self.water_left} of water\
+            \n{self.water_left} of water\n{self.milk_left} of milk\
+            \n{self.beans_left} of coffee beans\n{self.cups_left} of disposable cups\
+            \n${self.money_left} of money\n")
         CoffeeMachine.main(self)
 
     def exit(self):
